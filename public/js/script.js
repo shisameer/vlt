@@ -124,11 +124,11 @@ function changeLanguage() {
     // Update question heading
     const questionHeading = document.getElementById("question-heading");
     if (language === "french") {
-        questionHeading.textContent = "Tu veux être mon valentin?";
+        questionHeading.textContent = "Tu veux être mon valentin, Shivangi?";
     } else if (language === "thai") {
-        questionHeading.textContent = "คืนดีกับเราได้อ่ะป่าว?";
+        questionHeading.textContent = "คืนดีกับเราได้อ่ะป่าว, Shivangi?";
     } else {
-        questionHeading.textContent = "Will you be my valentine?";
+        questionHeading.textContent = "Will you be my valentine, Shivangi?";
     }
 
     // Reset yes button text
@@ -148,6 +148,6 @@ function changeLanguage() {
     } else if (language === "thai") {
         successMessage.textContent = "ฮูเร่ คืนดีกันแล้วน้า :3";
     } else {
-        successMessage.textContent = "Yepppie, see you sooonnn :3";
+        successMessage.textContent = "Yeahhhh, I knew you’d say yesss 😌";
     }
 }
